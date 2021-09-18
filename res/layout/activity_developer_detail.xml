@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#5DDFEF"
+    tools:context=".Developer.DeveloperDetail">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="140dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:src="@drawable/ankurprofile"
+        android:layout_height="160dp">
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="30dp"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name:"
+               android:textColor="#EA296B"
+               android:fontFamily="@font/fonts"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:padding="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Post:"
+               android:textColor="#EA296B"
+               android:fontFamily="@font/fonts"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:padding="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Email:"
+               android:textColor="#EA296B"
+               android:fontFamily="@font/fonts"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:padding="20dp"/>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mr. Ankur Kasaudhan"
+               android:textColor="#EA296B"
+               android:fontFamily="@font/fonts"
+               android:textStyle="bold"
+               android:textSize="20dp"
+               android:padding="20dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Android Developer"
+               android:fontFamily="@font/fonts"
+               android:textStyle="bold"
+               android:textColor="#EA296B"
+               android:textSize="20dp"
+               android:padding="20dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="ankurgupta8948@gmail.com"
+               android:fontFamily="@font/fonts"
+               android:textStyle="bold"
+               android:textColor="#EA296B"
+               android:textSize="20dp"
+               android:padding="20dp"/>
+       </LinearLayout>
+
+   </LinearLayout>
+
+</LinearLayout>

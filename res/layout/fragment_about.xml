@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/college_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/text_margin"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:text="Green Environment" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:text="It has campuses in Vellore, Amravati, Bhopal and Chennai"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:text="VIT is ranked 15th in the NIRF ranking of Engineering Institutions in 2020"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:text="Admission
+VIT admits bachelor students through its own engineering entrance exam, called the Vellore Institute of Technology Engineering Entrance Examination
+ (VITEEE).It is conducted every year in the month of April and May. The exam has been conducted online since 2013 and in 2018, 212,000
+students have registered.VITEEE 2021 will be held on 28, 29 and 31 May."/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:layout_marginTop="36dp"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/font"
+            android:textStyle="bold"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:clipToPadding="false"
+            android:foregroundGravity="center"
+            android:overScrollMode="never" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E6A441"
+            android:padding="@dimen/text_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@string/font"
+                android:text="Contact Details"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vellore Institute of Technology"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/font"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vellore, TamilNadu"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/font"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4447788688"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/font"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="www.vit.ac.in"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/font"
+                android:textStyle="italic"/>
+
+            <ImageView
+                android:id="@+id/aboutmap"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/vitmap"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
